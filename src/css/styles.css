@@ -1,0 +1,238 @@
+body {/* sets the background color, font spacing for the whole page*/
+    background-color: #393646;
+    color: #F4EEE0;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DynaPuff', cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    word-wrap: break-word;
+    font-size: smaller;
+    font-weight: 200;
+  }
+  
+  header {
+    background-color: coral;
+    padding: 20px;
+  }
+  
+h1{
+    color: #F4EEE0;
+    text-align: center;
+}
+button {/* styles for buttons*/
+    display: inline-block;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DynaPuff', cursive;
+    border-radius: 12px;
+    color: #F4EEE0;
+    background-color: #6D5D6E;
+    padding: 10px 11px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+    min-width: 100px;
+    box-shadow: none;
+    border: 1px solid #6D5D6E;
+  }
+.my-div {/* set style for div class my div element used in buttons*/
+    background-color: #393646;
+    margin: auto;
+    width: 300px;
+    display: flex; /* Add display flex */
+    justify-content: center; /* Add justify content center */
+}
+img {/*set the margin sizes of the image*/
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 8px;
+}
+article{/* sets the style of the article where i put the content to be in different section rather than the body*/
+    margin: auto;
+    width: 50%;
+    background-color:#4F4557;
+    
+}
+/*set the style for all the content inside the html files such as the alignment the sizes, the color, font etc*/
+.howtoplay{
+    color: #F4EEE0;
+    text-align: center;
+}
+.intro{
+   margin-left: 60px;
+   margin-right: 30px;
+   border-radius: 6%;
+   background-color: #393646;
+   text-align: left;
+   flex-basis: 60%;
+   font-weight: 200;
+}
+h5{
+    text-align: left;
+}
+.newsletter {/*set the style for the newsletter box*/
+    float: left;
+    margin: 0 0 1em 1em;
+    padding: 1em;
+    background-color: #4F4557;
+    border: 1px solid #6D5D6E;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #F4EEE0;
+  }
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #999;
+    font-size: xx-small;
+  }
+  h4{
+    padding: 20px;
+    text-align: center;
+    background-color: #6D5D6E;
+    color: #f0dfb7;
+    font-size: 30px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  h3{
+    padding: 20px;
+    text-align: center;
+    background-color: #6D5D6E;
+    color: #f0dfb7;
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+  .info{
+    text-align: justify;
+    font-size: small;
+    font-weight: 200;
+  }
+li{
+    text-align: justify;
+    font-size: small;
+    font-weight: 200;
+}
+#review-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  #review-form label {
+    margin-top: 10px;
+  }
+  /* centers the font inside the user input boxes like date name "select rating"*/
+  #review-form input[type="text"],
+  #review-form input[type="date"],
+  #review-form select,
+  #review-form textarea {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  #review-form button[type="submit"] {/*give a style to the submit button in the add review section*/
+    background-color: #e6c408;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #review-form button[type="submit"]:hover {
+    background-color: #6D5D6E;
+  }
+.card {/* give a style to each card of the reviews that are stored in data.js plus the ones that are going to be added*/
+    display: inline-block;
+    width: 150px;
+    height: 180px;
+    margin: 20px;
+    padding: 1px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(252, 252, 252, 0.932);
+    text-align: center;
+  }
+  .card h2 {/* give style to the content of the card such as the font giving the margin and padding */
+    font-size: 10px 0;
+    margin-top: 0;
+  }
+  .card p {/* style the space between the lines of the content inside the card*/
+    font-size: 12px;
+    margin: 7px 0
+  }
+  .stars {
+    font-size: 36px;
+  }
+
+  #reviews-container {/*style for the contour of the card it will center to improve the user experience*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* Style for the container element */
+.reviews-container {
+    background-color: #000000;
+    padding: 20px;
+    border: 1px solid #393646;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 600px;
+  }
+  
+  /* Style for the review card elements inside the container */
+  .review-card {
+    background-color: #393646;
+    padding: 10px;
+    border: 1px solid #393646;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .review-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .review-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+
+  @media screen and (max-width: 400px) {/*set the layout to a device with 400px need to be added after finishing the styling*/
+    body {
+      font-size: 14px;
+    }
+    
+
+  }
+  @media screen and (max-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+}
