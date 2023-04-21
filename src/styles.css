@@ -225,14 +225,34 @@ li{
   
 
   @media screen and (max-width: 400px) {/*set the layout to a device with 400px need to be added after finishing the styling*/
-    body {
-      font-size: 14px;
-    }
-    
-
-  }
-  @media screen and (max-width: 600px) {
     body{
-        font-size: 16px;
+      font-size: 14px;
+  }
+  img {/*set the margin sizes of the image*/
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.video{
+  width: 100%;
+}
+  }
+  @media screen and (max-width: 768px) {
+    body{
+        font-size: 10px;
     }
+    img {/*set the margin sizes of the image*/
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      border-radius: 8px;
+  }
+  .video{
+    width: 100%;
+  }
 }
